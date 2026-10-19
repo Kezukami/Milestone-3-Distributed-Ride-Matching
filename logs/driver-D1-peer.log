@@ -1,0 +1,19 @@
+[2026-10-19 10:57:08.131] [driver-D1-peer] START D1 peer=127.0.0.1:9301
+[2026-10-19 10:57:59.081] [driver-D1-peer] JOIN D2 neighbors=['D2']
+[2026-10-19 10:57:59.083] [driver-D1-peer] ANNOUNCE D2 neighbors=['D2']
+[2026-10-19 10:58:39.063] [driver-D1-peer] JOIN D3 neighbors=['D3', 'D2']
+[2026-10-19 10:58:39.081] [driver-D1-peer] ANNOUNCE D3 neighbors=['D3', 'D2']
+[2026-10-19 10:59:49.865] [driver-D1-peer] JOIN D4 neighbors=['D4', 'D2']
+[2026-10-19 10:59:49.880] [driver-D1-peer] ANNOUNCE D4 neighbors=['D4', 'D2']
+[2026-10-19 11:00:22.800] [driver-D1-peer] LOOKUP 000ff229c2664871b707e217a19c6471 kind=find target=D3 path=D1
+[2026-10-19 11:00:22.805] [driver-D1-peer] FORWARD 000ff229c2664871b707e217a19c6471 D1->D2
+[2026-10-19 11:00:57.129] [driver-D1-peer] LOOKUP 4f873caf85364885aeb58f9a204dfd67 kind=scan target=None path=D1
+[2026-10-19 11:00:57.131] [driver-D1-peer] FORWARD 4f873caf85364885aeb58f9a204dfd67 D1->D2
+[2026-10-19 11:06:21.267] [driver-D1-peer] LOOKUP dedbc2ec188848f49616a1822ca6cd1c kind=scan target=None path=D1
+[2026-10-19 11:06:21.268] [driver-D1-peer] FORWARD dedbc2ec188848f49616a1822ca6cd1c D1->D2
+[2026-10-19 11:10:32.218] [driver-D1-peer] LEAVE D4 neighbors=['D3', 'D2']
+[2026-10-19 11:12:15.742] [driver-D1-peer] FAIL D2 unreachable; neighbors=['D3']
+[2026-10-19 11:12:37.591] [driver-D1-peer] LOOKUP 52837fd5b0414f66aab123aacc503499 kind=find target=D3 path=D1
+[2026-10-19 11:12:37.591] [driver-D1-peer] FORWARD 52837fd5b0414f66aab123aacc503499 D1->D3
+[2026-10-19 11:13:40.997] [driver-D1-peer] LOOKUP 76cb3c404b2b48e7927464f8cb4314aa kind=scan target=None path=D1
+[2026-10-19 11:13:41.000] [driver-D1-peer] FORWARD 76cb3c404b2b48e7927464f8cb4314aa D1->D3

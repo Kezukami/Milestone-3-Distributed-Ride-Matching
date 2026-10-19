@@ -1,0 +1,10 @@
+[2026-10-19T17:52:34.656+00:00] [broker] listening on TCP port 9200
+[2026-10-19T17:55:18.285+00:00] [broker] JOIN audit ('topic', 'ride.assigned')
+[2026-10-19T17:55:46.526+00:00] [broker] JOIN monitor ('topic', 'ride.assigned')
+[2026-10-19T17:57:08.147+00:00] [broker] JOIN driver-D1-group ('group', 'drivers.local')
+[2026-10-19T17:57:59.097+00:00] [broker] JOIN driver-D2-group ('group', 'drivers.local')
+[2026-10-19T17:58:39.063+00:00] [broker] JOIN driver-D3-group ('group', 'drivers.local')
+[2026-10-19T17:59:49.844+00:00] [broker] JOIN driver-D4-group ('group', 'drivers.local')
+[2026-10-19T18:06:21.382+00:00] [broker] SEND {'op': 'publish', 'target': 'ride.assigned', 'message_id': '93a45a6c-d2cd-4a86-875a-e16e5c02e646', 'timestamp': '2026-10-19T18:06:21.369391+00:00', 'payload': {'status': 'matched', 'ride_id': 'ride-John-D1', 'driver_id': 'D1', 'request_id': 'req_1792433180947', 'lookup_path': ['D1', 'D2', 'D3', 'D4']}} recipients=2
+[2026-10-19T18:09:41.434+00:00] [broker] SEND {'op': 'group', 'target': 'drivers.local', 'message_id': '107cefad-67ba-472e-ba09-cb60c0fc2f78', 'timestamp': '2026-10-19T18:09:41.430556+00:00', 'payload': {'notice': 'High demand: update your location'}} recipients=4
+[2026-10-19T18:13:41.044+00:00] [broker] SEND {'op': 'publish', 'target': 'ride.assigned', 'message_id': '60a702fc-8049-4a27-904b-8404d46f40a9', 'timestamp': '2026-10-19T18:13:41.020501+00:00', 'payload': {'status': 'matched', 'ride_id': 'ride-Emma-D3', 'driver_id': 'D3', 'request_id': 'req_1792433620670', 'lookup_path': ['D1', 'D3']}} recipients=2

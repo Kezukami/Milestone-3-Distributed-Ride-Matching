@@ -1,0 +1,14 @@
+[2026-10-19 10:58:39.055] [driver-D3-peer] START D3 peer=127.0.0.1:9303
+[2026-10-19 10:58:39.098] [driver-D3-peer] JOIN membership=['D1', 'D2', 'D3'] neighbors=['D2', 'D1']
+[2026-10-19 10:59:49.911] [driver-D3-peer] ANNOUNCE D4 neighbors=['D2', 'D4']
+[2026-10-19 11:00:22.847] [driver-D3-peer] LOOKUP 000ff229c2664871b707e217a19c6471 kind=find target=D3 path=D1->D2->D3
+[2026-10-19 11:00:22.849] [driver-D3-peer] FOUND 000ff229c2664871b707e217a19c6471 resource=D3 path=D1->D2->D3
+[2026-10-19 11:00:57.159] [driver-D3-peer] LOOKUP 4f873caf85364885aeb58f9a204dfd67 kind=scan target=None path=D1->D2->D3
+[2026-10-19 11:00:57.160] [driver-D3-peer] FORWARD 4f873caf85364885aeb58f9a204dfd67 D3->D4
+[2026-10-19 11:06:21.305] [driver-D3-peer] LOOKUP dedbc2ec188848f49616a1822ca6cd1c kind=scan target=None path=D1->D2->D3
+[2026-10-19 11:06:21.306] [driver-D3-peer] FORWARD dedbc2ec188848f49616a1822ca6cd1c D3->D4
+[2026-10-19 11:10:32.238] [driver-D3-peer] LEAVE D4 neighbors=['D2', 'D1']
+[2026-10-19 11:12:15.747] [driver-D3-peer] REMOVE D2 neighbors=['D1']
+[2026-10-19 11:12:37.609] [driver-D3-peer] LOOKUP 52837fd5b0414f66aab123aacc503499 kind=find target=D3 path=D1->D3
+[2026-10-19 11:12:37.610] [driver-D3-peer] FOUND 52837fd5b0414f66aab123aacc503499 resource=D3 path=D1->D3
+[2026-10-19 11:13:41.012] [driver-D3-peer] LOOKUP 76cb3c404b2b48e7927464f8cb4314aa kind=scan target=None path=D1->D3

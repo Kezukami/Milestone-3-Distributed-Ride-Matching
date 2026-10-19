@@ -1,0 +1,11 @@
+[2026-10-19 10:57:59.070] [driver-D2-peer] START D2 peer=127.0.0.1:9302
+[2026-10-19 10:57:59.084] [driver-D2-peer] JOIN membership=['D1', 'D2'] neighbors=['D1']
+[2026-10-19 10:58:39.097] [driver-D2-peer] ANNOUNCE D3 neighbors=['D1', 'D3']
+[2026-10-19 10:59:49.895] [driver-D2-peer] ANNOUNCE D4 neighbors=['D1', 'D3']
+[2026-10-19 11:00:22.831] [driver-D2-peer] LOOKUP 000ff229c2664871b707e217a19c6471 kind=find target=D3 path=D1->D2
+[2026-10-19 11:00:22.833] [driver-D2-peer] FORWARD 000ff229c2664871b707e217a19c6471 D2->D3
+[2026-10-19 11:00:57.144] [driver-D2-peer] LOOKUP 4f873caf85364885aeb58f9a204dfd67 kind=scan target=None path=D1->D2
+[2026-10-19 11:00:57.147] [driver-D2-peer] FORWARD 4f873caf85364885aeb58f9a204dfd67 D2->D3
+[2026-10-19 11:06:21.289] [driver-D2-peer] LOOKUP dedbc2ec188848f49616a1822ca6cd1c kind=scan target=None path=D1->D2
+[2026-10-19 11:06:21.290] [driver-D2-peer] FORWARD dedbc2ec188848f49616a1822ca6cd1c D2->D3
+[2026-10-19 11:10:32.233] [driver-D2-peer] LEAVE D4 neighbors=['D1', 'D3']

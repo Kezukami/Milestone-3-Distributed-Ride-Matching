@@ -1,0 +1,2 @@
+[2026-10-19T17:59:49.844+00:00] [driver-D4-group] RECEIVE {'status': 'ready', 'target': 'drivers.local'}
+[2026-10-19T18:09:41.434+00:00] [driver-D4-group] RECEIVE {'op': 'group', 'target': 'drivers.local', 'message_id': '107cefad-67ba-472e-ba09-cb60c0fc2f78', 'timestamp': '2026-10-19T18:09:41.430556+00:00', 'payload': {'notice': 'High demand: update your location'}}
